@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   custom_GITHUB_ENV:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Set the value
         id: step_one
